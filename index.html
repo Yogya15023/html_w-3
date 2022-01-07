@@ -3,12 +3,13 @@
     <head>
         <title>My Website</title>
         <script src="https://kit.fontawesome.com/ede844f6e4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
-  <div class ="Nav-Wrapper">
+  <div class ="nav-wrapper">
     <h4>Sports Star</h4>
     <span>
-      <a href="#">About</a>
+      <a href="www.google.com">About</a>
       <a href="#">Services</a>
       <a href="#">Contact Us</a>
     </span>
@@ -19,13 +20,26 @@
   <p>
     This is a sports shop,where you can buy all the sports equipment right from your house.
   </p>
+  <ul>
+    <li>Cricket</li>
+    <ol>
+      <li>bats</li>
+      <li>balls</li>
+      <li>accessories</li>
+    </ol>
+    <li>Football</li>
+    <ol>
+      <li>Brazucca</li>
+      <li>Brazucca Lite</li>
+    </ol>
+  </ul>
   <hr>
   <figure>
-    <img src="./images/pexels-pixabay-46798.jpg" width="500px">
+    <img src="./images/pexels-pixabay-46798.jpg" width="500px" alt="Brazucca" class ="hero">
     <figcaption>brazucca</figcaption>
   </figure>
   <figure>
-    <img src="./images/pexels-rodnae-productions-5836977.jpg" width="500px">
+    <img src="./images/pexels-rodnae-productions-5836977.jpg" width="500px" alt="Brazucca Lite" class ="hero">
     <figcaption>brazucca Lite</figcaption>
   </figure>
   <hr>
@@ -33,15 +47,20 @@
     <i class="fab fa-instagram"></i>
   </a>
   <div>Contact us</div>
-  <form>
-    <label>First name:</label><br>
-  <input type="text"name="Name" placeholder="Your Name"><br>
-  <label >Email:</label><br>
-  <input type="text" name="Email" placeholder="Email"><br>
-  <br>
-  <textarea placeholder="Feedback"></textarea>
-  <br>
-  <input type="Submit" name="Submit" value="Submit">
-  </form>
+  <div class ="formstyle">
+    <form>
+      <div class ="Pair">
+        <label>First name:</label><br>
+        <input type="text"name="Name" placeholder="Your Name">
+      </div>
+      <div class ="Pair">
+        <label >Email:</label><br>
+        <input type="text" name="Email" placeholder="Email">
+      </div>
+    <textarea placeholder="Feedback"></textarea>
+    <br>
+    <input type="Submit" name="Submit" value="Submit" class="btn">
+    </form>
+  </div>
     </body>
 </html>

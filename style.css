@@ -1,0 +1,28 @@
+* {
+  /* border: 1px solid black;
+ */
+  width: 100%;
+}
+body {
+  width: 100%;
+}
+.nav-wrapper {
+  width: 50%;
+}
+.hero {
+  width: 45%;
+}
+span {
+  width: 50%;
+}
+span > a {
+  text-decoration: none;
+  color: black;
+}
+.Pair {
+  margin: 0.5em;
+}
+.btn {
+  width: 200px;
+  margin: 0.5em;
+}
